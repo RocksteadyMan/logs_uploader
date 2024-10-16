@@ -1,0 +1,11 @@
+--trusted-host artifactory.lstprod.net
+--extra-index-url https://artifactory.lstprod.net/artifactory/api/pypi/autoqa-pypi/simple
+--extra-index-url https://artifactory.lstprod.net/artifactory/api/pypi/web-pypi-local/simple
+--extra-index-url https://artifactory.lstprod.net/artifactory/api/pypi/diops-pypi-backup/simple
+
+autocore==0.35.0
+wowslib==0.46.0.dev14
+
+elasticsearch==7.13.1
+mergedeep==1.3.0
+numpy==1.26.4

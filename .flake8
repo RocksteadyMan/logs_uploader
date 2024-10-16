@@ -1,0 +1,17 @@
+[flake8]
+ignore =
+    # E501: line too long (82 > 79 characters)
+    E501,
+    # E402: module level import not at top of file
+    E402,
+    # W292: no newline at end of file
+    W292,
+    # W293: blank line contains whitespace. Disabled due to docstrings format.
+    W293,
+    # E126 continuation line over-indented for hanging indent
+    E126,
+    # W504 line break after binary operator
+    W504
+exclude =
+    .git
+tee = True
